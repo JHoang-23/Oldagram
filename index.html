@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img src="images/logo.png" alt="Oldagram logo" class="logo">
+                <img src="images/user-avatar.png" alt="User profile picture" class="user-avatar">
+            </div>
+        </header>
+        
+        
+        <main>
+            <section class="body">
+                <section class="user-info">
+                    <div class="pfp-container">
+                        <img src="images/avatar-vangogh.jpg" alt="Van gogh self portrait" class="user-avatar">
+                    </div>
+
+                    <div class="poster-info">
+                        <p class="poster">Vincent van Gogh</p>
+                        <p class="location">Zudert, Netherlands </p>    
+                    </div>
+                </section>
+                
+                <section class="post-image">
+                    <div class="img-container">
+                        <img class="post" src="images/post-vangogh.jpg" alt="a picture of van gogh">
+                    </div>
+                </section>
+                
+                
+
+                <section class="post-info">
+
+                    
+                    <div class="icon-container">
+                        <a id="like-btn"><img class="icon like" id="like-icon" src="images/icon-heart.svg" alt="Instagram like button"></a>
+                        <img class="icon comment" src="images/icon-comment.svg" alt="Instagram comment button">
+                        <img class="icon message" src="images/icon-dm.svg" alt="Instagram direct message button">
+                    </div>
+                    <!-- Likes -->
+                    <p class = "likes"><span id="likes"></span> likes</p>
+                    <!-- Caption -->
+                    <p class="caption"> <span class="username">vincey1853</span> just took a few mushrooms lol</p>
+                </section> 
+            </section>
+            
+        </main>
+
+        <script src="index.js"></script>
+    </body>
+</html>
